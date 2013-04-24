@@ -1,0 +1,66 @@
+package com.sample
+ 
+import com.sample.DroolsTest.Computer;
+ 
+rule "checkNoise"
+	when 
+		c : Computer ( ( (gfxCard != null && cpu > 3) || mem > 16) && !isLoud)
+	then
+		System.out.println(c.getName() + " is loud.");
+		c.setLoud();
+end
+
+rule "checkCheap"
+	when 
+	 	c : Computer ( price < 1000 && !relativeCost.equals("cheap") )
+	then 
+		System.out.println(c.getName() + " is cheap.");
+		c.setRelativeCost("cheap");
+		update (c);
+end
+
+rule "checkExpensive"
+	when 
+		c : Computer ( (price > 4000) && !relativeCost.equals("expensive"))
+	then
+		System.out.println(c.getName() + " is expensive");
+		c.setRelativeCost("expensive");
+		update( c );
+end
+
+rule "checkHot"
+	when 
+		c : Computer ((( ram > 8) || (cpu > 4)) && !isHot)
+	then 
+	    System.out.println(c.getName() + " is hot.");
+		c.setHot();
+		update( c );
+end
+		
+rule "checkRisky"
+	when 
+		c : Computer ((isHot && price < 1000) && !isRisky)
+	then
+		System.out.println(c.getName() + " is risky");
+		c.setRisky();
+		update( c );
+end
+
+rule "checkGame"
+	when 
+		c : Computer (  ( gfxCard.equals("expensive")  || (!gfxCard.equals("none") && cpu > 2)) &&(canGame==false))
+	then
+		System.out.println(c.getName() + " can play games.");
+		c.setGame();
+		update( c );
+end
+
+rule "checkCrunch"
+	when 
+		c : Computer( (( cpu > 4 && ram > 4) || gfxCard.equals("premium") ) && !canCrunch)
+	then
+		System.out.println(c.getName() + " can crunch numbers");
+		c.setCrunch();
+		update( c );
+end
+

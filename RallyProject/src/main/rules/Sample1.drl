@@ -1,0 +1,29 @@
+//created on: Apr 23, 2013
+package com.sample
+ 
+import com.sample.DroolsTest.Computer;
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+
+
+rule "compareComputers"
+
+    when
+        p : Computer(modelName != null)
+        q : Computer(modelName != null)
+    then
+        
+        if ( p.canGame && (q.canCrunch && !q.canGame) ) System.out.println(p.modelName + " is a better buy than " + q.getName()+ " since it can game.");
+        else if(p.relativeCost.equals("cheap") && q.relativeCost.equals("expensive") ) System.out.println(p.modelName + " is a better buy than " + q.getName()+" because it is cheap and not expensive");
+        else if ( ( !p.canCrunch && !p.canGame ) && (q.canGame || q.canCrunch) ) System.out.println(q.modelName + " is a better buy than " + p.getName()+" because it can either crunch or game.");
+        else if ( ( p.isRisky && !q.isRisky ) ) System.out.println(q.modelName + " is a better buy than " + p.getName()+ " since it is not risky.");
+       
+
+end
+

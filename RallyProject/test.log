@@ -1,0 +1,680 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>com.sample.DroolsTest$Computer@3651813f</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>com.sample.DroolsTest$Computer@6b5d09c</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>com.sample.DroolsTest$Computer@41e2a543</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>4</factId>
+  <objectToString>com.sample.DroolsTest$Computer@6cff380</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>5</factId>
+  <objectToString>com.sample.DroolsTest$Computer@3bcb45bb</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [1, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [2, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [3, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [4, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [5, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>compareComputers [6, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>6</factId>
+  <objectToString>com.sample.DroolsTest$Computer@73a96313</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 5]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3bcb45bb(5)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 4]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6cff380(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 3]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@41e2a543(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 2]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@6b5d09c(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [6, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [6, 1]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@73a96313(6); p=com.sample.DroolsTest$Computer@3651813f(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [5, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [5, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3bcb45bb(5); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [4, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [4, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6cff380(4); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [3, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [3, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@41e2a543(3); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [2, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [2, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@6b5d09c(2); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>compareComputers [1, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>compareComputers [1, 6]</activationId>
+  <rule>compareComputers</rule>
+  <declarations>q=com.sample.DroolsTest$Computer@3651813f(1); p=com.sample.DroolsTest$Computer@73a96313(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>
